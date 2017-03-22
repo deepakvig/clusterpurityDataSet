@@ -2,15 +2,15 @@
 	"values":[
 	{
 		"ele":40,
-		"type":"c2"
+		"type":"c1"
 	},
 	{
 		"ele":80,
-		"type":"c3"
+		"type":"c2"
 	},
 	{
 		"ele":10,
-		"type":"c1"
+		"type":"c3"
 	}],
 	"total": 130
 		
@@ -19,15 +19,15 @@
 	"values":[
 	{
 		"ele":0,
-		"type":"c2"
+		"type":"c1"
 	},
 	{
 		"ele":0,
-		"type":"c3"
+		"type":"c2"
 	},
 	{
 		"ele":10,
-		"type":"c1"
+		"type":"c3"
 	}],
 
 	"total": 10	
@@ -36,15 +36,15 @@
 	"values":[
 	{
 		"ele":20,
-		"type":"c2"
+		"type":"c1"
 	},
 	{
 		"ele":25,
-		"type":"c3"
+		"type":"c2"
 	},
 	{
 		"ele":60,
-		"type":"c1"
+		"type":"c3"
 	}],
 	"total": 105
 },
@@ -52,15 +52,15 @@
 	"values":[
 	{
 		"ele":25,
+		"type":"c1"
+	},
+	{
+		"ele":25,
 		"type":"c2"
 	},
 	{
 		"ele":25,
 		"type":"c3"
-	},
-	{
-		"ele":25,
-		"type":"c1"
 	}],
 
 	"total": 75
@@ -69,15 +69,15 @@
 	"values":[
 	{
 		"ele":60,
-		"type":"c2"
+		"type":"c1"
 	},
 	{
 		"ele":20,
-		"type":"c3"
+		"type":"c2"
 	},
 	{
 		"ele":90,
-		"type":"c1"
+		"type":"c3"
 	}],
 
 	"total": 160	
@@ -86,15 +86,15 @@
 	"values":[
 	{
 		"ele":20,
-		"type":"c2"
+		"type":"c1"
 	},
 	{
 		"ele":30,
-		"type":"c3"
+		"type":"c2"
 	},
 	{
 		"ele":40,
-		"type":"c1"
+		"type":"c3"
 	}],
 
 	"total": 90	
@@ -103,15 +103,15 @@
 	"values":[
 	{
 		"ele":60,
-		"type":"c2"
+		"type":"c1"
 	},
 	{
 		"ele":30,
-		"type":"c3"
+		"type":"c2"
 	},
 	{
 		"ele":40,
-		"type":"c1"
+		"type":"c3"
 	}],
 
 	"total": 130	
@@ -120,15 +120,15 @@
 	"values":[
 	{
 		"ele":40,
-		"type":"c2"
+		"type":"c1"
 	},
 	{
 		"ele":50,
-		"type":"c3"
+		"type":"c2"
 	},
 	{
 		"ele":60,
-		"type":"c1"
+		"type":"c3"
 	}],
 
 	"total": 150	
@@ -137,15 +137,15 @@
 	"values":[
 	{
 		"ele":40,
-		"type":"c2"
+		"type":"c1"
 	},
 	{
 		"ele":50,
-		"type":"c3"
+		"type":"c2"
 	},
 	{
 		"ele":60,
-		"type":"c1"
+		"type":"c3"
 	}],
 
 	"total": 150	

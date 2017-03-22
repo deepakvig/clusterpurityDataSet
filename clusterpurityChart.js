@@ -229,6 +229,9 @@ d3 = d3 || {};
 											return 'translate('+(circleR/2)+','+(circleR/2)+')';
 						})
 					    .attr("fill", function(d){
+					    	if (d.data.color === "#1f77b4")
+					    		return "#d62728";
+					    	else
 					    		return d.data.color;
 					    })
 					    .attr("stroke", "gray")
@@ -253,6 +256,9 @@ d3 = d3 || {};
 							return 'translate('+(circleR/2)+','+(circleR/2)+')';
 						})
 						.attr("fill", function(d){
+					        if (d.data.color === "#1f77b4")
+					    		return "#d62728";
+					    	else
 					    		return d.data.color;
 					    })
 						.transition()
@@ -360,7 +366,12 @@ d3 = d3 || {};
                     g_ci.enter()
                     	.append('circle')
                     	.attr('r',function(d){return 10;})
-                        .style('fill', function(d){return data[d].color})
+                        .style('fill', function(d){
+                        	if (data[d].color === "#1f77b4")
+					    		return "#d62728";
+					    	else
+					    		return data[d].color;
+                        })
                         .style('opacity',1)
                         .style('stroke', function(d){return data[d].color})
                         .style('stroke-width',2)
@@ -398,9 +409,17 @@ d3 = d3 || {};
                         if(d3.select(this).style('fill')=='rgb(255, 255, 255)')
                             return 'white';
                         else
-                            return data[d].color;
+                        	if (data[d].color === "#1f77b4")
+					    		return "#d62728";
+					    	else
+					    		return data[d].color;
                     })
-                        .style('stroke', function(d){return data[d].color})
+                        .style('stroke', function(d){
+                        	if (data[d].color === "#1f77b4")
+					    		return "#d62728";
+					    	else
+					    		return data[d].color;
+                        })
                         .transition()
                         .duration(1000)
                         .attr('cx',function(d,i){

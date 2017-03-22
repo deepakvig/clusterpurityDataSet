@@ -25,7 +25,7 @@ body {
 
 var obj;
 
-d3.json('clusterpurityDataSet.json',function(error,data){
+d3.json('https://raw.githubusercontent.com/deepakvig/clusterpurityDataSet/master/clusterpurityDataSet.json',function(error,data){
   obj = d3.clusterpuritychart().containerID('chart').noOfCategories(4).fixAngleLayout(true);
   d3.select('#chart').append('svg').datum(data).call(obj);
 });
